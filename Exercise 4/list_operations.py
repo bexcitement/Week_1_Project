@@ -27,7 +27,6 @@ def tail(input_list):
 
 def last(input_list):
     """Return the last element of the input list."""
-#    print input_list[(len(input_list) - 1)]
     return input_list[-1]
 
 def init(input_list):
@@ -60,13 +59,11 @@ def inner_four_end(input_list):
 
 def replace_head(input_list):
     """Replace the head of the input list with the value 42."""
-#do we really need to have two lines here?  if so, plz give details.
     input_list[0] = 42
     return input_list
 
 def replace_third_and_last(input_list):
     """Replace the third and last elements of the input list with the value 37."""
-    # Can we do this on a single line?
     input_list[2] = 37
     input_list[-1] = 37
     return input_list
@@ -177,9 +174,6 @@ def custom_count(input_list, value):
 
 def custom_reverse(input_list):
     """custom_reverse(input_list) imitates input_list.reverse()"""
-    # listy = input_list[-1::-1]
-    # print listy
-    # return listy
     input_list[0::] = input_list[::-1]
 
 
